@@ -4,6 +4,9 @@
     {
         public Circle(double radius)
         {
+            if (radius <= 0)
+                throw new ArgumentException("radius cannot be less than or equal to zero");
+
             _radius = radius;
         }
 

@@ -1,0 +1,1 @@
+Select Product.Name, Categories.Name From Product LEFT Join ON Categories.CategoryId = Product.Category.Id
